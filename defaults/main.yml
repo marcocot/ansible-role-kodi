@@ -1,0 +1,8 @@
+---
+
+kodi_group: kodi
+kodi_user: user
+kodi_conf_dir: .kodi
+kodi_pkg_apt_repo: ppa:team-xbmc/ppa
+kodi_pkg_apt_ver: "2:14.2"
+kodi_extra_groups: []

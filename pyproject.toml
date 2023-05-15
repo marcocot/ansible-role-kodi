@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ansible-role-kodi"
+version = "0.1.0"
+description = ""
+authors = ["Marco Cotrufo <marco.cotrufo@devncode.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+molecule = "^5.0.1"
+molecule-plugins = {extras = ["docker"], version = "^23.4.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
